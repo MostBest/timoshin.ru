@@ -1,0 +1,220 @@
+doctype html
+html(lang="ru-Ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width")
+
+    meta(name="keywords" content="")
+    meta(name="description" content="")
+    title title
+
+
+    link(rel="stylesheet" type='text/css' href="libs/fancybox-3.5.7.min.css")
+    link(rel="stylesheet" type='text/css' href="css/main.css")
+
+  body
+    .header
+      .container
+        .header__upper
+          .header__phone
+            a(href="tel:" class="header__phone-link") 8 953 423 34 77
+          .header__address г. Тула ул. Г.Маргелова д.5а оф 99 
+        .header__logotype
+          img(src="img/logotype.png" alt="Логотип компании «Тимошин Сергей»")
+        .header__title 
+          h1 Кухни на заказ по доступной цене
+        .header__action
+          h2.h3 
+            | Изготовление кухни по вашему эскизу, <br>
+            | сборка <b>бесплатно</b>
+          img(src="img/action.png" class="header__action-img" alt="Акция - сборка бесплатно")
+        .header__form
+          form.form
+            .form__title Закажи кухню прямо сейчас!
+            .input__group
+              input(type="text" class="inp" placeholder="Введите имя" value="" name="name")
+              input(type="text" class="inp phone_with_ddd" placeholder="Введите телефон" value="" name="phone")
+              input(type="submit" class="sub" value="Сделать заказ" name="phone")
+    //- .advantage
+      .container
+        .advantage__wrapper
+          .advantage__item 
+            | 5 лет <br>
+            | успешной работы 
+            
+          .advantage__item
+            | Более 500 <br>
+            | реализованных проектов
+            
+          .advantage__item
+            | Доставка <br>
+            | точно в срок
+            
+          .advantage__item
+            | 98% клиентов <br>
+            | рекомендуют нас друзьям
+    .what
+      .container
+        h2.what__title Почему стоит заказать кухню у нас?
+        .what__wrapper
+          
+          .what__item
+            .what__img.what__img-1
+            .what__item-title Замер за 1 час
+            .what__description
+              | Наш сотрудник в течении 1 часа произведет <br>
+              | все необходимые замеры  для точного <br>
+              | рассчета стоимости
+              
+          .what__item
+            .what__img.what__img-2
+            .what__item-title Кухни любой сложности
+            .what__description
+              | Для нас нет невыполнимых задач, просто <br>
+              | скажите что вы хотите и мы это сделаем
+              
+          .what__item
+            .what__img.what__img-3 
+            .what__item-title Материал
+            .what__description
+              | Для нас нет невыполнимых задач, просто <br>
+              | скажите что вы хотите и мы это сделаем
+              
+          .what__item
+            .what__img.what__img-4
+            .what__item-title Точные  сроки исполнения
+            .what__description 
+              | Изготовление кухни происходит в точные <br>
+              | сроки прописанные в договоре
+              
+          .what__item
+            .what__img.what__img-5
+            .what__item-title Любой размер кухни
+            .what__description
+              | Наша компания изготовит кухню любых <br>
+              | размеров начиная от хрущевки до <br>
+              | загородного дома
+              
+          .what__item
+            .what__img.what__img-6
+            .what__item-title Внесение изменений в проект
+            .what__description
+              | В период изготовления возможно вносить <br>
+              | изменения в проект
+    .projects
+      .container
+        h2.projects__title Воплощенные нами проекты
+        .projects__wrapper
+          .projects__item
+            img(src="img/1-240x360.jpg" class="projects__img") 
+            .projects__description Если вы любите современный дизайн интерьера, присмотритесь к этому гарнитуру. Необычайно стильный двухцветный фасад подчеркнет ваш утонченный вкус.
+            
+          .projects__item
+            img(src="img/2-240x360.jpg" class="projects__img") 
+            .projects__description Современная кухня из массива дуба. Материал фасада прочный, устойчивый к невзгодам. Кухня выполнена в светло-бежевой цветовой гамме.
+
+          .projects__item
+            img(src="img/3-240x360.jpg" class="projects__img") 
+            .projects__description Вы ищете кухню в спокойных темных тонах? Мы можем порекомендовать данную модель. Этот гарнитур выполнен в классическом стиле и никогда не выйдет из моды.
+                  
+          .projects__item
+            img(src="img/4-240x360.jpg" class="projects__img") 
+            .projects__description Для тех, кто выбирает для своей квартиры классическую кухню в цвете натурального дерева. Кухня выполнена из массива ольхи, которая и подарила ей свой приятный цвет.
+            
+          .projects__item
+            img(src="img/5-240x360.jpg" class="projects__img") 
+            .projects__description Все очень прямое, без декора и излишеств, в стиле модерн. Фасад сделан из массива ольхи – приятного на ощупь и шикарного на вид материала.
+
+          .projects__item
+            img(src="img/6-240x360.jpg" class="projects__img") 
+            .projects__description Изготовление кухни происходит в точные сроки прописанные в договоре, изготовление кухни происходит в точные сроки прописанные в договоре.
+    .reviews
+      .container
+        .reviews__wrapper
+          h2.reviews__title Отзывы наших клиентов
+          .reviews__slider
+            .reviews__item
+              .reviews__name Петрухин Николай
+              .reviews__text Спасибо за новую кухню. Она получилась именно такая как я и хотела. Отдельное спасибо за советы по выборе фурнитуры.  Действительно все элементы, которые мне советовал мастер при замерке смотрятся шикарно.
+              .reviews__date 12.06.16
+              
+            .reviews__item
+              .reviews__name Петрухин Николай
+              .reviews__text Спасибо за новую кухню. Она получилась именно такая как я и хотела. Отдельное спасибо за советы по выборе фурнитуры.  Действительно все элементы, которые мне советовал мастер при замерке смотрятся шикарно.
+              .reviews__date 12.06.16
+              
+            .reviews__item
+              .reviews__name Петрухин Николай
+              .reviews__text Спасибо за новую кухню. Она получилась именно такая как я и хотела. Отдельное спасибо за советы по выборе фурнитуры.  Действительно все элементы, которые мне советовал мастер при замерке смотрятся шикарно.
+              .reviews__date 12.06.16
+              
+            .reviews__item
+              .reviews__name Петрухин Николай
+              .reviews__text Спасибо за новую кухню. Она получилась именно такая как я и хотела. Отдельное спасибо за советы по выборе фурнитуры.  Действительно все элементы, которые мне советовал мастер при замерке смотрятся шикарно.
+              .reviews__date 12.06.16
+              
+            .reviews__item
+              .reviews__name Петрухин Николай
+              .reviews__text Спасибо за новую кухню. Она получилась именно такая как я и хотела. Отдельное спасибо за советы по выборе фурнитуры.  Действительно все элементы, которые мне советовал мастер при замерке смотрятся шикарно.
+              .reviews__date 12.06.16
+    .gallery
+      .container
+        h2.gallery__title Наши работы
+        .gallery__slider
+          .gallery__item
+            a(href="img/b2.jpg" data-fancybox="gallery" class="top__img")
+              img(src="img/b2-260x146.jpg")      
+            a(href="img/b2.jpg" data-fancybox="gallery" class="bottom__img")
+              img(src="img/b2-260x146.jpg")
+                
+          .gallery__item
+            a(href="img/b2.jpg" data-fancybox="gallery" class="top__img")
+              img(src="img/b2-260x146.jpg")      
+            a(href="img/b2.jpg" data-fancybox="gallery" class="bottom__img")
+              img(src="img/b2-260x146.jpg")
+                
+          .gallery__item
+            a(href="img/b2.jpg" data-fancybox="gallery" class="top__img")
+              img(src="img/b2-260x146.jpg")      
+            a(href="img/b2.jpg" data-fancybox="gallery" class="bottom__img")
+              img(src="img/b2-260x146.jpg")
+                
+          .gallery__item
+            a(href="img/b2.jpg" data-fancybox="gallery" class="top__img")
+              img(src="img/b2-260x146.jpg")      
+            a(href="img/b2.jpg" data-fancybox="gallery" class="bottom__img")
+              img(src="img/b2-260x146.jpg")
+                
+          .gallery__item
+            a(href="img/b2.jpg" data-fancybox="gallery" class="top__img")
+              img(src="img/b2-260x146.jpg")      
+            a(href="img/b2.jpg" data-fancybox="gallery" class="bottom__img")
+              img(src="img/b2-260x146.jpg")
+                
+          .gallery__item
+            a(href="img/b2.jpg" data-fancybox="gallery" class="top__img")
+              img(src="img/b2-260x146.jpg")      
+            a(href="img/b2.jpg" data-fancybox="gallery" class="bottom__img")
+              img(src="img/b2-260x146.jpg")
+                
+                      
+                      
+    .footer
+      .footer__form
+        form.form
+          .form__title Закажи кухню прямо сейчас!
+          .input__group
+            input(type="text" class="inp" placeholder="Введите имя" value="" name="name")
+            input(type="text" class="inp phone_with_ddd" placeholder="Введите телефон" value="" name="phone")
+            input(type="submit" class="sub" value="Сделать заказ" name="phone")
+              
+      .footer__contacts
+        .footer__phone
+          a(href="tel:" class="footer__phone-link") 8 953 423 34 77
+        .footer__address г. Тула ул. Г.Маргелова д.5а оф 99 
+      
+    script(src="libs/jquery-3.5.1.min.js")
+    script(src="libs/mask-1.14.16.min.js")
+    script(src="libs/slick-1.8.1.min.js")
+    script(src="libs/fancybox-3.5.7.min.js")
+    script(src="js/main.js")

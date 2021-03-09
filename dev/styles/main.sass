@@ -1,0 +1,225 @@
+@import base
+@import grid
+@import header
+
+.form__title
+	font-weight: 700
+	font-size: 28px
+
+.header__action
+	margin-bottom: 60px
+
+.form__title
+	margin-bottom: 50px
+
+.input__group
+	padding-bottom: 60px
+
+.inp, .sub
+	text-transform: uppercase
+	text-align: center
+	color: #6f7374
+	border-radius: 3px
+	margin-right: 30px
+	border: none
+	padding: 12px 0
+	font-size: 14px
+	width: 100%
+	max-width: 260px
+
+.sub
+	background-color: #D90C13
+	color: #ffffff
+	font-weight: 700
+	cursor: pointer
+
+.advantage
+	padding: 40px 0
+
+.advantage__wrapper
+	display: flex
+	justify-content: space-between
+
+.advantage__item
+	padding: 20px 40px
+	border-right: 1px solid rgba(0, 0, 0, .1)
+	color: #7b848f
+	&:last-child
+		border: none
+
+.what
+	border-bottom: 1px solid rgba(0, 0, 0, .1)
+	padding: 60px 0
+	color: #7b848f
+
+.what__title
+	text-align: center
+	margin-bottom: 70px
+
+.what__img
+	background: url('../img/sprite.png') no-repeat
+	margin: 0 auto 30px
+	width: 60px
+	height: 60px
+
+.what__img-1
+	background-position: 0 -60px
+
+.what__img-2
+	background-position: -60px -60px
+
+.what__img-3
+	background-position: -120px -60px
+
+.what__img-4
+		background-position: -120px 0px
+
+.what__img-5
+		background-position: -60px 0px
+
+
+.what__wrapper
+	display: grid
+	grid-template-columns: repeat(3, 1fr)
+	grid-gap: 64px 32px
+
+.what__item
+	text-align: center
+
+.what__item-title
+	font-size: 18px
+	margin-bottom: 10px
+	font-weight: 700
+
+.projects
+	text-align: center
+	padding: 60px 0
+
+.projects__wrapper
+	display: grid
+	grid-template-columns: repeat(3, 1fr)
+	grid-gap: 64px 32px
+
+.projects__img
+	width: 100%
+	height: auto
+	margin-bottom: 20px
+
+.reviews
+	text-align: center
+
+.reviews__wrapper
+	background-color: #ededed
+	margin-left: -85px
+	margin-right: -85px
+	padding: 40px 102px 60px
+
+.reviews__title
+	margin-bottom: 40px
+
+.reviews__item
+	text-align: left
+
+.reviews__name
+	margin-bottom: 10px
+	font-weight: 700
+	position: relative
+	padding-left: 30px
+	display: flex
+	align-items: center
+
+.reviews__name:before
+	position: absolute
+	content: ''
+	left: 0
+	width: 17px
+	height: 17px
+	background-position: -180px -102px
+
+.reviews__text
+	margin-bottom: 5px
+
+.reviews__date
+	font-size: 14px
+
+.footer
+	padding: 60px 0
+	text-align: center
+	background-color: #3d444d
+	color: #fff
+
+.footer .input__group
+	padding-bottom: 20px
+
+.gallery
+	text-align: center
+
+
+// slider review
+.slick-track
+	display: flex
+
+.slick-list
+	overflow: hidden
+
+.slick-dots
+	display: flex
+	justify-content: center
+	align-items: center
+	height: 40px
+	padding-top: 40px !important
+
+.slick-dots li
+	list-style: none
+
+.slick-dots li.slick-active button
+	background-color: #D90C13
+
+.slick-dots button
+	font-size: 0
+	border: none
+	width: 16px
+	height: 16px
+	background-color: #b6c1cc
+	border-radius: 50%
+	margin: 0 7px
+	cursor: pointer
+
+.gallery
+	padding-bottom: 60px
+
+.gallery__item a
+	display: block
+	margin: 15px 0
+
+.gallery__slider
+	position: relative
+
+.slick-arrow
+	font-size: 0
+	position: absolute
+	z-index: 10
+	top: 50%
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next
+	background: url('../img/sprite.png') no-repeat
+	width: 21px
+	height: 40px
+	border: none
+	margin-top: -20px
+	cursor: pointer
+
+.slick-arrow.slick-prev
+	right: -30px
+	background-position: -201px -22px
+
+.slick-arrow.slick-prev:hover
+	background-position: -201px -62px
+
+.slick-arrow.slick-next
+	left: -30px
+	background-position: -180px -22px
+
+.slick-arrow.slick-next:hover
+	background-position: -180px -62px
